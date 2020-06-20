@@ -1,0 +1,39 @@
+/* Reflection.txt for COMP112 - 2018T1, Assignment 1
+ * Name: Matthew Corfiatis
+ * Username: CorfiaMatt
+ * ID: 300447277
+ */
+
+Questions for Reflection: 
+=========================
+
+Almost certainly, when you wrote your code, you had bugs in it which you had to
+fix. Some of the bugs were probably easy to identify; others probably took more
+time.
+
+1. Characterise the kinds of bugs you had to deal with (eg spelling, punctuation, ...)
+
+Mathematical bugs dividing integers and getting a whole number,
+spelling and capitalisation of variable names and methods,
+incorrectly ordered arguments,
+not initialising a variable before using it,
+trying to access a non-static method or variable from a static method,
+trying to call a method from a library that has not been referenced,
+rotation matrix errors forgetting that Java's sine and cosine functions require the angle in radians.
+
+
+2. What techniques for fixing the bugs were most effective for you? Can you
+think of better approaches that you could use next time?
+
+Using breakpoint debugging and inspection in Eclipse was the most useful because it allowed me to easily stop the program and see what state it was in.
+I also compiled often to catch non-runtime errors.
+
+Sometimes I print values of variables to console just to check that the value is what is expected.
+
+I cant think of a better approach to debugging.
+
+
+3. Were there any useful tools in BlueJ to help?
+I used Eclipse, and as I said, breakpoint debugging.
+One of the most useful tools was Eclipses autocomplete equivalent to CTRL + Space in blueJ, this saved time and stopped me from spelling variable names wrong or using the wrong case as Eclipse could auto complete the name.
+
